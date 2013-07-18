@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p {
+    color: #6E6E6E;
+	font-family: 'Fauna One', serif;
+    font-size: 1em;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+a {
+    background-color: #ffffff;
+    color: #000000;
+	text-transform:uppercase;
+	font-family: 'Fauna One', serif;
+    font-size: 1em;
+	text-decoration:none;
+    height: 100%;
+    margin: 5;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    background-color: #ffffff;
+    color: #000000;
+	text-transform:uppercase;
+	font-family: 'Fauna One', serif;
+    font-size: 1em;
+	text-decoration:none;
+    height: 100%;
+    margin: 5;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+
+h1 {
+    color: #000000;
+	font-family: 'Fauna One', serif;
+    font-size: 1,5em;
+    margin: 5px;
+    padding: 0;
+}
+
+.not_mobile { display: none; }
+
+.dont_float_mobile { float: none; }
+
+img { max-width: 100%; }
+
+#blocpage {
+    background-color: #ffffff;
+    width: 100%;
+	margin: 5%;
+}
+
+#titre-site {
+    color: #000000;
+	font-family: 'dosis', serif;
+	font-weight:600;
+    font-size: 3em;
+    margin: 0;
+}
+
+
+#fonction {
+    color: #000000;
+	font-family: 'fauna One', serif;
+    font-size: 1em;
+    margin: 0;
+}
