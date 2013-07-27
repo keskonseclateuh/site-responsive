@@ -6,48 +6,45 @@ p {
 	font-family: 'Fauna One', serif;
     font-size: 1em;
     height: 100%;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
+    margin: 10%;
     width: 100%;
 }
 
 a {
-    background-color: #ffffff;
     color: #000000;
 	text-transform:uppercase;
 	font-family: 'Fauna One', serif;
     font-size: 1em;
 	text-decoration:none;
     height: 100%;
-    margin: 5;
     overflow: hidden;
     padding: 0;
     width: 100%;
 }
 
-li {
-    background-color: #ffffff;
-    color: #000000;
-	text-transform:uppercase;
-	font-family: 'Fauna One', serif;
-    font-size: 1em;
-	text-decoration:none;
-    height: 100%;
-    margin: 5;
-    overflow: hidden;
+.nav nav-tabs {
+    margin: 10%;
     padding: 0;
-    width: 100%;
 }
+
+
 
 
 h1 {
     color: #000000;
 	font-family: 'Fauna One', serif;
-    font-size: 1,5em;
-    margin: 5px;
+    font-size: 1.5em;
+    margin: 10%;
     padding: 0;
 }
+
+h2 {
+    color: #000000;
+    font-family: 'Fauna One', serif;
+    font-size: 1em;
+    padding: 0;
+}
+
 
 .not_mobile { display: none; }
 
@@ -55,24 +52,63 @@ h1 {
 
 img { max-width: 100%; }
 
-#blocpage {
-    background-color: #ffffff;
-    width: 100%;
-	margin: 5%;
-}
+
 
 #titre-site {
     color: #000000;
 	font-family: 'dosis', serif;
-	font-weight:600;
+    height: 100%;
     font-size: 3em;
-    margin: 0;
 }
 
 
 #fonction {
     color: #000000;
+    height: 100%;
 	font-family: 'fauna One', serif;
     font-size: 1em;
-    margin: 0;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+.item
+{
+    width: 30.303%; /* 300px */
+    float: left;
+    margin: 0 1.515% 1.875em; /* 15px 30px */
+}
+
+.ombre
+{
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+#main
+{
+    margin-top:2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+    }
+
+
+span.roll {
+    background:url(../img/mag.png) center center no-repeat #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    -webkit-box-shadow: 0px 0px 4px #000;
+    -moz-box-shadow: 0px 0px 4px  #000;
+    box-shadow: 0px 0px 4px  #000;
+}
+
+.centrage {text-align: center;}
+
+.surlignage  {
+    background:#FF0080;
+
 }
